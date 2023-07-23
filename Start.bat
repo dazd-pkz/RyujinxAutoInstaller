@@ -7,7 +7,7 @@
 ::    ╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝    ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
 
 @echo off
-title Ryujinx Auto Installer - V16.0.3 ^| github.com/dazd-pkz/RyujinxInstaller
+title Ryujinx Auto Installer - V16.0.3 ^| github.com/dazd-pkz/RyujinxAutoInstaller
 IF "%PROCESSOR_ARCHITECTURE%" EQU "amd64" (>nul 2>&1 "%SYSTEMROOT%\SysWOW64\cacls.exe" "%SYSTEMROOT%\SysWOW64\config\system") ELSE (>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system")
 if '%errorlevel%' NEQ '0' (goto :UACPrompt) else (goto :gotAdmin)
 :UACPrompt

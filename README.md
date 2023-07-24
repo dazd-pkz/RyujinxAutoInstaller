@@ -10,11 +10,11 @@
 
 ### <p align="center">🎮 Ryujinx Auto Installer 🎮</p>
 
-<br><br>
+<br>
 <p align="center">
 <strong>
 Download and install all components needed for Ryujinx Multiplayer to work such as Keys, Firmware, and environment for easier usage.
-<br><br>
+<br>
 </strong>
 </p>
 <br>

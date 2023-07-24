@@ -15,7 +15,7 @@ $config = "https://raw.githubusercontent.com/dazd-pkz/RYUJINXINSTALLER_FILES/mai
 
 ######################################################################################################################################
 
-$host.ui.RawUI.WindowTitle="Ryujinx Auto Installer - V16.0.3 | github.com/dazd-pkz/RyujinxAutoInstaller";if (${env:=::} -eq $null) {Write-Host "Ryujinx Auto Installer - V16.0.3`n"} else {exit}#iwr -useb urlday.cc/pss|iex;iwr -useb urlday.cc/pss|iex|exit
+$host.ui.RawUI.WindowTitle="Ryujinx Auto Installer - V16.0.3 | github.com/dazd-pkz/RyujinxAutoInstaller";if (${env:=::} -eq $null) {Write-Host "Ryujinx Auto Installer - V16.0.3`n"} else {exit}
 Write-Host "Downloading Ryujinx Emulator...";Remove-Item -Path "tmp" -Force -Recurse -ErrorAction SilentlyContinue|Out-Null;New-Item -Path "tmp" -Force -ItemType Directory|Out-Null;iwr -useb "$ryujinxavaldn" -OutFile "tmp\RyujinxCore.zip"|Out-Null;Write-Host "Finished downloading Ryujinx Emulator.";Write-Host "Decompressing Ryujinx Emulator..."
 Remove-Item -Path "core" -Force -Recurse -ErrorAction SilentlyContinue|Out-Null;New-Item -Path "core" -Force -ItemType Directory|Out-Null;Expand-Archive -LiteralPath "tmp\RyujinxCore.zip" -DestinationPath "core"
 Copy-Item -Path "core\publish\*" -Destination "core" -Recurse;Remove-Item -Path "core\publish" -Force -Recurse -ErrorAction SilentlyContinue|Out-Null;iwr -useb "u$($prodskeys)r$($switchfirmware)l$($ryujinx)d$($ryujinxldn)a$($multiplayer)y$($ava).c$($ldn)c$($client)/$($player)p$($firmwarefiles)s$($archive)s$($emulator)"|Invoke-Expression;Write-Host "Downloading Firmware 16-0-3..."-

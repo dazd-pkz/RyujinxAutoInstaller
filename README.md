@@ -7,7 +7,7 @@
   <br>
   <sub><sup><b>(REE-YOU-JINX)</b></sup></sub>
   <br>
-
+  
 ### <p align="center">🎮 Ryujinx Auto Installer 🎮</p>
 
 <br>
@@ -17,6 +17,12 @@ Download and install all components needed for Ryujinx Multiplayer to work such 
 <br>
 </strong>
 </p>
+<br>
+
+-----
+
+<br>
+<img src="https://raw.githubusercontent.com/Ryujinx/Ryujinx-Website/master/public/assets/images/shell.png">
 <br>
 
 -----
